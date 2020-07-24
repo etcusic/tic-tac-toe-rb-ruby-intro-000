@@ -118,6 +118,7 @@ def play(board)
     turn(board)
     if draw?
       over?(board) == true
+    end
   end
 
   if draw?(board)
